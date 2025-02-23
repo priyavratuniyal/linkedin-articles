@@ -1,18 +1,38 @@
-# IntelliJ IDEA specific files
-.idea/
-*.iml
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Maven specific files
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+.python-version
 
-# Logs
-*.log
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# PyCharm
+*.iws
+
+# VS Code
+.vscode/
