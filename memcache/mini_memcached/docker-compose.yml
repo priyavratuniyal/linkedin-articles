@@ -1,0 +1,10 @@
+services:
+  node1:
+    environment:
+      - MEMCACHE_NODE_ID=node1
+      - MEMCACHE_API_PORT=8000
+      
+  node2:
+    environment:
+      - MEMCACHE_NODE_ID=node2
+      - MEMCACHE_API_PORT=8001
